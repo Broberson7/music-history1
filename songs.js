@@ -24,11 +24,13 @@ for (var x = 0; x< songs.length; x++) {
 	currentSong = currentSong.replace("(", "");
 	favoriteSongs.innerHTML += currentSong;
 
+	
+
 }
 
 
 
-console.log(songs)
+
 
 
 
