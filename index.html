@@ -7,6 +7,8 @@
   <title></title>
   <link rel="stylesheet" href="music.css">
 </head>
+<div class="flex-container">
+  
 
 <body>
   <nav>
@@ -20,18 +22,87 @@
   </nav>
 
 <div class= "blue">
-  <p>Songs:</p>
+  <form action="form.html"method="POST">
+    
+<fieldset>
+  <ledgend><p>Songs</p></ledgend>
+  <input type="range" name="song-range" min="15" max="25" step="0.5" value="20.5" />
 
+</fieldset>
  
+<fieldset>
+ <p>Artist:</p>
+  <select name="select">
+    <option artistoption="option1">Option 1</option> 
+    <option artistoption="option2" selected>Options 2</option>
+    <option artistoption="option3">Option 3</option>
+ </select>
+</fieldset> 
 
-  <p>Artist:</p>
+<fieldset>
+ <p>Album:</p>
+  <select name="select">
+    <option artistoption="option1">Option 1</option> 
+    <option artistoption="option2" selected>Options 2</option>
+    <option artistoption="option3">Option 3</option>
+  </select>
+</fieldset>
 
+<fieldset>
+<legend><p>Genre:</p></legend>
+    <input type="checkbox" name="rock" value="rock">Rock
+    <input type="checkbox" name="classical" value="classical">Classical<br>
+    <input type="checkbox" name="pop" value="pop">Pop 
+    <input type="checkbox" name="Jazz" value="jazz">Jazz<br>
+    <input type="checkbox" name="blues" value="blues">Blues
+    <input type="checkbox" name="hip hope" value="hip hop">Hip hop
+</fieldset>
+<div id="button">
+  <button form="filter">Filter</button>
 
-  <p>Album:</p>
+</div>
+
+<div class= "yellow">
+  <h1 class="songNameHeader">Song Name</h1>
+  
+  <p class= "firstList"> 
+    <ul>
+      <li>Artist Name</li>
+      <li>Album Name</li>
+      <li>Genre</li>
+    </ul>
+  </p>
+
+<h1 class="songNameHeader">Song Name</h1>
+
+  <p class= "secondList"> 
+    <ul>
+      <li>Artist Name</li>
+      <li>Album Name</li>
+      <li>Genre</li>
+    </ul>
+  </p>
+
+<h1 class="songNameHeader">Song Name</h1>
+  <p class= "thirdList"> 
+    <ul>
+      <li>Artist Name</li>
+      <li id="favoriteSongs">>Album Name</li>
+      <li>Genre</li>
+    </ul>
+  </p>
+<h1 class="songNameHeader">Song Name</h1>
+  <p class= "forthList"> 
+    <ul>
+      <li>Artist Name</li>
+      <li>Album Name</li>
+      <li>Genre</li>
+    </ul>
+  </p>
 </div>
   <header>
 
-  <article id="favoriteSongs">
+  
     <section>
 
     </header>

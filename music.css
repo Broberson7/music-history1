@@ -4,19 +4,67 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
+	font-family: Arial;
 
 }
 
 .red {
 	border: 2px solid;
 	background-color: #FFB4B0;
+	max-width: 900px;
 }
 
 .blue {
 	border: 2px solid;
 	background-color: #4DD7FA;
-	height: 100px;
-
-	
+	height: 320px;
+	width: 20%;
+	margin-top: 10px;
+	padding: 0px 50px 50px 10px;
+	float: left;	
 
 }
+
+fieldset {
+	border:0;
+}
+p { 
+	font-family: Arial; 
+
+}
+
+.yellow {
+	border: 2px solid;
+	background-color: #FEFAC0;
+	height: 450px;
+	width: 450px;
+	margin-top: 20px;
+	float: center;
+	padding: 0px 50px 30px 15px;
+
+
+}
+
+.songNameHeader {
+	color: #785616;
+
+}
+
+h1 {
+	font-family: Arial; 
+
+}
+
+
+}
+/* Use the Flexible Layout Box model to ensure that both the form section and the content section are the same height.
+The entire container for the even songs (plus its details) should have a background color of Sea Shell (SeaShell or #FFF5EE)
+The entire container for the odd songs (plus its details) should have a background color of Mint Cream (MintCream or #F5FFFA)
+The first song container should have bold text.
+Set the navigation bar's position so that it's always on the top of the page, even if you scroll down. To ensure this works, 
+you can just add some div tags at the bottom of the page that add enough text that would force you to scroll the browser./
+
+
+
+
+
